@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>CompetitorServlet</servlet-name>
+        <servlet-class>org.bmx.parcial.CompetitorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CompetitorServlet</servlet-name>
+        <url-pattern>/competitors</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ExportServlet</servlet-name>
+        <servlet-class>org.bmx.parcial.ExportServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExportServlet</servlet-name>
+        <url-pattern>/export</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CompetitorDetailsServlet</servlet-name>
+        <servlet-class>org.bmx.parcial.CompetitorDetailsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CompetitorDetailsServlet</servlet-name>
+        <url-pattern>/competitordetails</url-pattern>
+    </servlet-mapping>
+</web-app>

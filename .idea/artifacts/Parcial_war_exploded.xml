@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="Parcial:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Parcial_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Parcial" />
+        </element>
+      </element>
+      <element id="library" level="project" name="Maven: jakarta.json.bind:jakarta.json.bind-api:2.0.1" />
+      <element id="library" level="project" name="Maven: org.eclipse:eclipse-yasson:2.0.1" />
+      <element id="javaee-facet-resources" facet="Parcial/web/Web" />
+    </root>
+  </artifact>
+</component>
